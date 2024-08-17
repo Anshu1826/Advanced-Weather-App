@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <!-- <script src="app2.js" defer></script> -->
+    <link rel="shortcut icon" href="weather-news.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/uplot/dist/uPlot.min.css">
+    <script src="node_modules/uplot/dist/uPlot.iife.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="searchSection">
+            <input type="text" placeholder="Enter city name:">
+            <button><img src="search.png" alt="">
+        </div></button>
+        <div class="imageSection">
+            <img class='main-img' src="cloudy.png" alt="weather-image">
+        </div>
+        <div class="resultSection">
+            <h1 class="temp">32° C</h1>
+            <h2 class="city">Haridwar</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="storm.png" alt="">
+                    <section>
+                        <p class="humidityVal">50%</p>
+                        <p>Humidity</p>
+                    </section>
+                </div>
+                <div class="col">
+                    <img src="wind.png" alt="">
+                    <section>
+                        <p class="windVal">20 km/h</p>
+                        <p>Wind speed</p>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <div class="adv">Advanced Insights</div>
+    </div>
+    </div>
+</body>
+
+</html>
